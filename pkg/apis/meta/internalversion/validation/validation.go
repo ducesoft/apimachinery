@@ -17,9 +17,9 @@ limitations under the License.
 package validation
 
 import (
-	"k8s.io/apimachinery/pkg/apis/meta/internalversion"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/util/validation/field"
+	"github.com/ducesoft/apimachinery/pkg/apis/meta/internalversion"
+	metav1 "github.com/ducesoft/apimachinery/pkg/apis/meta/v1"
+	"github.com/ducesoft/apimachinery/pkg/util/validation/field"
 )
 
 // ValidateListOptions returns all validation errors found while validating the ListOptions.

@@ -22,10 +22,10 @@ import (
 	"errors"
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/fields"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/apimachinery/pkg/selection"
-	"k8s.io/apimachinery/pkg/types"
+	"github.com/ducesoft/apimachinery/pkg/fields"
+	"github.com/ducesoft/apimachinery/pkg/labels"
+	"github.com/ducesoft/apimachinery/pkg/selection"
+	"github.com/ducesoft/apimachinery/pkg/types"
 )
 
 // LabelSelectorAsSelector converts the LabelSelector api type into a struct that implements

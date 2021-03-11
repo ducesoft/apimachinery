@@ -17,10 +17,10 @@ limitations under the License.
 package v1beta1
 
 import (
-	"k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/apis/meta/v1"
+	"github.com/ducesoft/apimachinery/pkg/conversion"
+	"github.com/ducesoft/apimachinery/pkg/runtime"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
 )
 
 // GroupName is the group name for this API.

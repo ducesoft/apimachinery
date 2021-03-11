@@ -31,10 +31,10 @@ import (
 	"strings"
 	"time"
 
-	"k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apimachinery/pkg/util/httpstream"
-	utilnet "k8s.io/apimachinery/pkg/util/net"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/ducesoft/apimachinery/pkg/api/errors"
+	"github.com/ducesoft/apimachinery/pkg/util/httpstream"
+	utilnet "github.com/ducesoft/apimachinery/pkg/util/net"
+	utilruntime "github.com/ducesoft/apimachinery/pkg/util/runtime"
 
 	"github.com/mxk/go-flowrate/flowrate"
 	"k8s.io/klog/v2"

@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/util/validation/field"
+	"github.com/ducesoft/apimachinery/pkg/util/validation/field"
 )
 
 // Labels allows you to present labels independently from their storage.

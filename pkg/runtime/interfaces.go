@@ -20,7 +20,7 @@ import (
 	"io"
 	"net/url"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
 )
 
 const (

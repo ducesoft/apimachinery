@@ -21,14 +21,14 @@ syntax = "proto2";
 
 package k8s.io.apimachinery.pkg.apis.meta.v1beta1;
 
-import "k8s.io/apimachinery/pkg/apis/meta/v1/generated.proto";
-import "k8s.io/apimachinery/pkg/runtime/schema/generated.proto";
+import "github.com/ducesoft/apimachinery/pkg/apis/meta/v1/generated.proto";
+import "github.com/ducesoft/apimachinery/pkg/runtime/schema/generated.proto";
 
 // Package-wide variables from generator "generated".
 option go_package = "v1beta1";
 
 // PartialObjectMetadataList contains a list of objects containing only their metadata.
-// +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
+// +k8s:deepcopy-gen:interfaces=github.com/ducesoft/apimachinery/pkg/runtime.Object
 message PartialObjectMetadataList {
   // Standard list metadata.
   // More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds

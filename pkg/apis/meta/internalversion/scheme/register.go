@@ -17,10 +17,10 @@ limitations under the License.
 package scheme
 
 import (
-	"k8s.io/apimachinery/pkg/apis/meta/internalversion"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/ducesoft/apimachinery/pkg/apis/meta/internalversion"
+	"github.com/ducesoft/apimachinery/pkg/runtime"
+	"github.com/ducesoft/apimachinery/pkg/runtime/serializer"
+	utilruntime "github.com/ducesoft/apimachinery/pkg/util/runtime"
 )
 
 // Scheme is the registry for any type that adheres to the meta API spec.

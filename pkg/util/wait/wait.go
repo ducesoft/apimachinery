@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/clock"
-	"k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/ducesoft/apimachinery/pkg/util/clock"
+	"github.com/ducesoft/apimachinery/pkg/util/runtime"
 )
 
 // For any test of the style:

@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/diff"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/util/diff"
 )
 
 func TestResourceMapper(t *testing.T) {

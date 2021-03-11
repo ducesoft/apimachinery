@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	metav1 "github.com/ducesoft/apimachinery/pkg/apis/meta/v1"
 )
 
 func TestSetStatusCondition(t *testing.T) {

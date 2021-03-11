@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	utiljson "k8s.io/apimachinery/pkg/util/json"
+	utiljson "github.com/ducesoft/apimachinery/pkg/util/json"
 )
 
 type testcase struct {

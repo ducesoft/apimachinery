@@ -16,7 +16,7 @@ limitations under the License.
 
 package fields
 
-import "k8s.io/apimachinery/pkg/selection"
+import "github.com/ducesoft/apimachinery/pkg/selection"
 
 // Requirements is AND of all requirements.
 type Requirements []Requirement

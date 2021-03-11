@@ -19,7 +19,7 @@ package runtime
 import (
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
 )
 
 // NegotiateError is returned when a ClientNegotiator is unable to locate

@@ -22,10 +22,10 @@ import (
 	"reflect"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/errors"
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/ducesoft/apimachinery/pkg/runtime"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/util/errors"
+	"github.com/ducesoft/apimachinery/pkg/util/sets"
 )
 
 var (

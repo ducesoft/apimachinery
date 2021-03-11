@@ -22,12 +22,12 @@ import (
 	"strconv"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/api/resource"
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/fields"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/apimachinery/pkg/util/intstr"
+	"github.com/ducesoft/apimachinery/pkg/api/resource"
+	"github.com/ducesoft/apimachinery/pkg/conversion"
+	"github.com/ducesoft/apimachinery/pkg/fields"
+	"github.com/ducesoft/apimachinery/pkg/labels"
+	"github.com/ducesoft/apimachinery/pkg/types"
+	"github.com/ducesoft/apimachinery/pkg/util/intstr"
 )
 
 func Convert_Pointer_float64_To_float64(in **float64, out *float64, s conversion.Scope) error {

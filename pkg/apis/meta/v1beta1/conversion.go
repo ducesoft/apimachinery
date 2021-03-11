@@ -19,8 +19,8 @@ package v1beta1
 import (
 	"unsafe"
 
-	"k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/conversion"
+	"github.com/ducesoft/apimachinery/pkg/apis/meta/v1"
+	"github.com/ducesoft/apimachinery/pkg/conversion"
 )
 
 // Convert_Slice_string_To_v1beta1_IncludeObjectPolicy allows converting a URL query parameter value

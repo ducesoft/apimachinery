@@ -28,11 +28,11 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/diff"
-	"k8s.io/apimachinery/pkg/util/json"
+	"github.com/ducesoft/apimachinery/pkg/apis/meta/v1/unstructured"
+	"github.com/ducesoft/apimachinery/pkg/conversion"
+	"github.com/ducesoft/apimachinery/pkg/runtime"
+	"github.com/ducesoft/apimachinery/pkg/util/diff"
+	"github.com/ducesoft/apimachinery/pkg/util/json"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

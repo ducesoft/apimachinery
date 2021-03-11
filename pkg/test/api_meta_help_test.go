@@ -22,16 +22,16 @@ import (
 
 	fuzz "github.com/google/gofuzz"
 
-	"k8s.io/apimachinery/pkg/api/meta"
-	metafuzzer "k8s.io/apimachinery/pkg/apis/meta/fuzzer"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/apis/testapigroup"
-	"k8s.io/apimachinery/pkg/apis/testapigroup/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/apimachinery/pkg/util/diff"
+	"github.com/ducesoft/apimachinery/pkg/api/meta"
+	metafuzzer "github.com/ducesoft/apimachinery/pkg/apis/meta/fuzzer"
+	metav1 "github.com/ducesoft/apimachinery/pkg/apis/meta/v1"
+	"github.com/ducesoft/apimachinery/pkg/apis/meta/v1/unstructured"
+	"github.com/ducesoft/apimachinery/pkg/apis/testapigroup"
+	"github.com/ducesoft/apimachinery/pkg/apis/testapigroup/v1"
+	"github.com/ducesoft/apimachinery/pkg/runtime"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/runtime/serializer"
+	"github.com/ducesoft/apimachinery/pkg/util/diff"
 )
 
 func TestIsList(t *testing.T) {

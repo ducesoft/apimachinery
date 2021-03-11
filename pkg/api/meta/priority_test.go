@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
 )
 
 func TestPriorityRESTMapperResourceForErrorHandling(t *testing.T) {

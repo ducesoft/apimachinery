@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	utilclock "k8s.io/apimachinery/pkg/util/clock"
+	utilclock "github.com/ducesoft/apimachinery/pkg/util/clock"
 )
 
 // NewExpiring returns an initialized expiring cache.

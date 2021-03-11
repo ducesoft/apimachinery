@@ -17,9 +17,9 @@ limitations under the License.
 package yaml
 
 import (
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/yaml"
+	"github.com/ducesoft/apimachinery/pkg/runtime"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/util/yaml"
 )
 
 // yamlSerializer converts YAML passed to the Decoder methods to JSON.

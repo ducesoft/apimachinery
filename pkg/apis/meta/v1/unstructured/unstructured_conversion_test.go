@@ -25,13 +25,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/apis/testapigroup"
-	testapigroupv1 "k8s.io/apimachinery/pkg/apis/testapigroup/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/test"
+	metav1 "github.com/ducesoft/apimachinery/pkg/apis/meta/v1"
+	"github.com/ducesoft/apimachinery/pkg/apis/meta/v1/unstructured"
+	"github.com/ducesoft/apimachinery/pkg/apis/testapigroup"
+	testapigroupv1 "github.com/ducesoft/apimachinery/pkg/apis/testapigroup/v1"
+	"github.com/ducesoft/apimachinery/pkg/runtime"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/test"
 )
 
 func TestObjectToUnstructuredConversion(t *testing.T) {

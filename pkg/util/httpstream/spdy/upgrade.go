@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/httpstream"
-	"k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/ducesoft/apimachinery/pkg/util/httpstream"
+	"github.com/ducesoft/apimachinery/pkg/util/runtime"
 )
 
 const HeaderSpdy31 = "SPDY/3.1"

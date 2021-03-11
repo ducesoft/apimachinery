@@ -25,7 +25,7 @@ import (
 	"strings"
 	"unicode"
 
-	jsonutil "k8s.io/apimachinery/pkg/util/json"
+	jsonutil "github.com/ducesoft/apimachinery/pkg/util/json"
 
 	"sigs.k8s.io/yaml"
 )

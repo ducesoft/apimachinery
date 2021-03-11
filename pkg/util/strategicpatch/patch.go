@@ -22,9 +22,9 @@ import (
 	"sort"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/util/json"
-	"k8s.io/apimachinery/pkg/util/mergepatch"
+	"github.com/ducesoft/apimachinery/pkg/apis/meta/v1/unstructured"
+	"github.com/ducesoft/apimachinery/pkg/util/json"
+	"github.com/ducesoft/apimachinery/pkg/util/mergepatch"
 )
 
 // An alternate implementation of JSON Merge Patch

@@ -19,9 +19,9 @@ package unstructured
 import (
 	"bytes"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	metav1 "github.com/ducesoft/apimachinery/pkg/apis/meta/v1"
+	"github.com/ducesoft/apimachinery/pkg/runtime"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
 )
 
 var _ runtime.Unstructured = &UnstructuredList{}
@@ -30,7 +30,8 @@ var _ metav1.ListInterface = &UnstructuredList{}
 // UnstructuredList allows lists that do not have Golang structs
 // registered to be manipulated generically. This can be used to deal
 // with the API lists from a plug-in.
-// +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
+// +genclient
+// +k8s:deepcopy-gen:interfaces=github.com/ducesoft/apimachinery/pkg/runtime.Object
 // +k8s:deepcopy-gen=true
 type UnstructuredList struct {
 	Object map[string]interface{}

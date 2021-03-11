@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	. "k8s.io/apimachinery/pkg/watch"
+	"github.com/ducesoft/apimachinery/pkg/runtime"
+	. "github.com/ducesoft/apimachinery/pkg/watch"
 )
 
 type fakeDecoder struct {

@@ -25,7 +25,7 @@ import (
 
 	"github.com/google/uuid"
 
-	utilclock "k8s.io/apimachinery/pkg/util/clock"
+	utilclock "github.com/ducesoft/apimachinery/pkg/util/clock"
 )
 
 func TestExpiringCache(t *testing.T) {

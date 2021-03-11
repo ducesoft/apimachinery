@@ -19,8 +19,8 @@ package validation
 import (
 	"strings"
 
-	"k8s.io/apimachinery/pkg/util/validation"
-	"k8s.io/apimachinery/pkg/util/validation/field"
+	"github.com/ducesoft/apimachinery/pkg/util/validation"
+	"github.com/ducesoft/apimachinery/pkg/util/validation/field"
 )
 
 // IsNegativeErrorMsg is a error message for value must be greater than or equal to 0.

@@ -21,8 +21,8 @@ import (
 	"reflect"
 
 	"github.com/evanphx/json-patch"
-	"k8s.io/apimachinery/pkg/util/json"
-	"k8s.io/apimachinery/pkg/util/mergepatch"
+	"github.com/ducesoft/apimachinery/pkg/util/json"
+	"github.com/ducesoft/apimachinery/pkg/util/mergepatch"
 )
 
 // Create a 3-way merge patch based-on JSON merge patch.

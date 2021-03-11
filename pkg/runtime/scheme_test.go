@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	runtimetesting "k8s.io/apimachinery/pkg/runtime/testing"
-	"k8s.io/apimachinery/pkg/util/diff"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/ducesoft/apimachinery/pkg/conversion"
+	"github.com/ducesoft/apimachinery/pkg/runtime"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/runtime/serializer"
+	runtimetesting "github.com/ducesoft/apimachinery/pkg/runtime/testing"
+	"github.com/ducesoft/apimachinery/pkg/util/diff"
+	utilruntime "github.com/ducesoft/apimachinery/pkg/util/runtime"
 )
 
 type testConversions struct {

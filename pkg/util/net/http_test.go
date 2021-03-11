@@ -36,7 +36,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"k8s.io/apimachinery/pkg/util/wait"
+	"github.com/ducesoft/apimachinery/pkg/util/wait"
 )
 
 func TestGetClientIP(t *testing.T) {

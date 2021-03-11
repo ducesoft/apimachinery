@@ -21,8 +21,8 @@ syntax = "proto2";
 
 package k8s.io.apimachinery.pkg.apis.meta.v1;
 
-import "k8s.io/apimachinery/pkg/runtime/generated.proto";
-import "k8s.io/apimachinery/pkg/runtime/schema/generated.proto";
+import "github.com/ducesoft/apimachinery/pkg/runtime/generated.proto";
+import "github.com/ducesoft/apimachinery/pkg/runtime/schema/generated.proto";
 
 // Package-wide variables from generator "generated".
 option go_package = "v1";
@@ -119,7 +119,7 @@ message APIResourceList {
 // discover the API at /api, which is the root path of the legacy v1 API.
 //
 // +protobuf.options.(gogoproto.goproto_stringer)=false
-// +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
+// +k8s:deepcopy-gen:interfaces=github.com/ducesoft/apimachinery/pkg/runtime.Object
 message APIVersions {
   // versions are the api versions that are available.
   repeated string versions = 1;
@@ -820,7 +820,7 @@ message OwnerReference {
 
 // PartialObjectMetadata is a generic representation of any object with ObjectMeta. It allows clients
 // to get access to a particular ObjectMeta schema without knowing the details of the version.
-// +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
+// +k8s:deepcopy-gen:interfaces=github.com/ducesoft/apimachinery/pkg/runtime.Object
 message PartialObjectMetadata {
   // Standard object's metadata.
   // More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
@@ -829,7 +829,7 @@ message PartialObjectMetadata {
 }
 
 // PartialObjectMetadataList contains a list of objects containing only their metadata
-// +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
+// +k8s:deepcopy-gen:interfaces=github.com/ducesoft/apimachinery/pkg/runtime.Object
 message PartialObjectMetadataList {
   // Standard list metadata.
   // More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
@@ -1003,7 +1003,7 @@ message StatusDetails {
 }
 
 // TableOptions are used when a Table is requested by the caller.
-// +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
+// +k8s:deepcopy-gen:interfaces=github.com/ducesoft/apimachinery/pkg/runtime.Object
 message TableOptions {
   // includeObject decides whether to include each object along with its columnar information.
   // Specifying "None" will return no object, specifying "Object" will return the full object contents, and
@@ -1103,7 +1103,7 @@ message Verbs {
 //
 // +protobuf=true
 // +k8s:deepcopy-gen=true
-// +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
+// +k8s:deepcopy-gen:interfaces=github.com/ducesoft/apimachinery/pkg/runtime.Object
 message WatchEvent {
   optional string type = 1;
 

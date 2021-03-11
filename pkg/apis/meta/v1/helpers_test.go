@@ -23,9 +23,9 @@ import (
 	"testing"
 
 	"github.com/google/gofuzz"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/apimachinery/pkg/util/diff"
+	"github.com/ducesoft/apimachinery/pkg/labels"
+	"github.com/ducesoft/apimachinery/pkg/types"
+	"github.com/ducesoft/apimachinery/pkg/util/diff"
 )
 
 func TestLabelSelectorAsSelector(t *testing.T) {

@@ -23,10 +23,10 @@ package v1
 import (
 	unsafe "unsafe"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	testapigroup "k8s.io/apimachinery/pkg/apis/testapigroup"
-	conversion "k8s.io/apimachinery/pkg/conversion"
-	runtime "k8s.io/apimachinery/pkg/runtime"
+	metav1 "github.com/ducesoft/apimachinery/pkg/apis/meta/v1"
+	testapigroup "github.com/ducesoft/apimachinery/pkg/apis/testapigroup"
+	conversion "github.com/ducesoft/apimachinery/pkg/conversion"
+	runtime "github.com/ducesoft/apimachinery/pkg/runtime"
 )
 
 func init() {

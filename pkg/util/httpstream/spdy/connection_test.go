@@ -27,7 +27,7 @@ import (
 	"time"
 
 	"github.com/moby/spdystream"
-	"k8s.io/apimachinery/pkg/util/httpstream"
+	"github.com/ducesoft/apimachinery/pkg/util/httpstream"
 )
 
 func runProxy(t *testing.T, backendUrl string, proxyUrl chan<- string, proxyDone chan<- struct{}, errCh chan<- error) {

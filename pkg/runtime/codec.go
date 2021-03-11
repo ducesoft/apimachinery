@@ -27,8 +27,8 @@ import (
 	"strconv"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/conversion/queryparams"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/conversion/queryparams"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
 	"k8s.io/klog/v2"
 )
 

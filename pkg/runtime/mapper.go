@@ -19,7 +19,7 @@ package runtime
 import (
 	"sync"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
 )
 
 type equivalentResourceRegistry struct {

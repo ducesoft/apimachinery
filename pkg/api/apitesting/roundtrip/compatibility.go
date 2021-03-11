@@ -31,17 +31,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	fuzz "github.com/google/gofuzz"
 
-	apiequality "k8s.io/apimachinery/pkg/api/equality"
-	apimeta "k8s.io/apimachinery/pkg/api/meta"
-	genericfuzzer "k8s.io/apimachinery/pkg/apis/meta/fuzzer"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/apimachinery/pkg/runtime/serializer/json"
-	"k8s.io/apimachinery/pkg/runtime/serializer/protobuf"
-	"k8s.io/apimachinery/pkg/util/intstr"
-	"k8s.io/apimachinery/pkg/util/sets"
+	apiequality "github.com/ducesoft/apimachinery/pkg/api/equality"
+	apimeta "github.com/ducesoft/apimachinery/pkg/api/meta"
+	genericfuzzer "github.com/ducesoft/apimachinery/pkg/apis/meta/fuzzer"
+	metav1 "github.com/ducesoft/apimachinery/pkg/apis/meta/v1"
+	"github.com/ducesoft/apimachinery/pkg/runtime"
+	"github.com/ducesoft/apimachinery/pkg/runtime/schema"
+	"github.com/ducesoft/apimachinery/pkg/runtime/serializer"
+	"github.com/ducesoft/apimachinery/pkg/runtime/serializer/json"
+	"github.com/ducesoft/apimachinery/pkg/runtime/serializer/protobuf"
+	"github.com/ducesoft/apimachinery/pkg/util/intstr"
+	"github.com/ducesoft/apimachinery/pkg/util/sets"
 )
 
 // CompatibilityTestOptions holds configuration for running a compatibility test using in-memory objects

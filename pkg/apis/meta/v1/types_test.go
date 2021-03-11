@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime/serializer/json"
+	"github.com/ducesoft/apimachinery/pkg/runtime/serializer/json"
 )
 
 func TestVerbsMarshalJSON(t *testing.T) {

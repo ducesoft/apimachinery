@@ -26,11 +26,11 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"sigs.k8s.io/yaml"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/json"
-	"k8s.io/apimachinery/pkg/util/mergepatch"
-	"k8s.io/apimachinery/pkg/util/sets"
-	sptest "k8s.io/apimachinery/pkg/util/strategicpatch/testing"
+	"github.com/ducesoft/apimachinery/pkg/runtime"
+	"github.com/ducesoft/apimachinery/pkg/util/json"
+	"github.com/ducesoft/apimachinery/pkg/util/mergepatch"
+	"github.com/ducesoft/apimachinery/pkg/util/sets"
+	sptest "github.com/ducesoft/apimachinery/pkg/util/strategicpatch/testing"
 )
 
 var (

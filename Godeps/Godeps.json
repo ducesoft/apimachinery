@@ -1,5 +1,5 @@
 {
-	"ImportPath": "k8s.io/apimachinery",
+	"ImportPath": "github.com/ducesoft/apimachinery",
 	"GoVersion": "unknown",
 	"GodepVersion": "gen-godeps",
 	"Packages": [
